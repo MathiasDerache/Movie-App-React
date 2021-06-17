@@ -1,0 +1,47 @@
+/* ******************************** Général **************************** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212020;
+    color: white;
+}
+
+/****************************** NavBar ******************/
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    flex-wrap: nowrap;
+    background-color: #27914D ;
+    height: 75px;
+    border-bottom: #000 solid 2px;
+}
+
+.items{
+    font-size: 2em;
+    padding-right: 50px ;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+
+.navImage{
+    position: absolute;
+    margin-top: 10px;
+    left: 10%;
+    width: 3.8em;
+}
+

@@ -1,0 +1,198 @@
+/* ******************************** Component Liste **************************** */
+
+.films{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 100px;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #212020;
+    border-top: 10px solid #27914D; 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+    /* ******************************** Component Film **************************** */
+.film{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.film:hover{
+    transform: scale(1.15);
+}
+
+
+.filmImage{
+    cursor: pointer;
+}
+
+
+.filmTitle{
+    cursor: pointer;
+    font-size: 0.5em!important;
+    width: 200px;
+    text-align: center;
+}
+
+img{
+    width: 10em;
+}
+
+#description{
+    position: absolute;
+    background-color: rgba(32, 32, 32, 0.75);
+    width: 320px;
+    height: 480px;
+    font-size: 0.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.toDetail{
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+    width: 320px;
+    height: 450px;
+    font-size: 0.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.fav{
+    position: absolute;
+    top: 450px;
+    left: 280px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-radius:50%;
+    text-decoration : none;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+
+.fav:hover{
+    transform: scale(1.5);
+}
+
+.fav:active{
+    transform: scale(1);
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+/* ******************************** Component Recherche **************************** */
+
+.input-group{
+    margin: 75px 0px;
+}
+
+.searchBtn{
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+}
+
+.searchBtn:hover{
+    background-color: #27914D;
+    color: white;
+}
+
+
+/* ******************************* Component Favoris ****************************/
+
+.hr{
+    margin: 0px auto;
+    width: 400px;
+    color: green;
+}
+
+hr {
+    padding: 1px;
+}
+
+/* ****************************** 404 ************************** */
+
+.lost{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ******************************** Detail ************************ */
+
+.pageDetail{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.posterDetail{
+    width: 450px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: 3px solid black;
+}
+
+.informationsDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.infoDetail{
+    margin-top: 20px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.back{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    border: none;
+    color: #27914D;
+    font-size: 5em;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+.back:hover{
+    color: #27914D;
+}

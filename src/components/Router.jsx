@@ -16,6 +16,7 @@ export class Router extends Component {
                     <Navbar/>
                     <Switch history={history}>
                         <Route  exact path='/' component={Main}/>
+                        <Route  exact path='/Movie-App-React/' component={Main}/>
                         <Route  path='/favoris' component={Favoris}/>
                         <Route  path='/detail' component={Detail}/>
                         <Route component={Perdu} />

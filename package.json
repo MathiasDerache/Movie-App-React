@@ -2,7 +2,7 @@
   "name": "movie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mathiasderache.github.io/Movie-App-React/",
+  "homepage": "https://mathiasderache.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

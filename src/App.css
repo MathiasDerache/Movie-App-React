@@ -45,3 +45,10 @@ body{
     width: 3.8em;
 }
 
+
+@media (max-width: 500px) { 
+
+    .navImage{
+        display: none;
+    }
+ }

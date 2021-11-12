@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Movie-App-React/static/css/main.3d56a69b.chunk.css",
+    "main.js": "/Movie-App-React/static/js/main.ef0a943b.chunk.js",
+    "main.js.map": "/Movie-App-React/static/js/main.ef0a943b.chunk.js.map",
+    "runtime-main.js": "/Movie-App-React/static/js/runtime-main.678cd683.js",
+    "runtime-main.js.map": "/Movie-App-React/static/js/runtime-main.678cd683.js.map",
+    "static/js/2.69c4b1c3.chunk.js": "/Movie-App-React/static/js/2.69c4b1c3.chunk.js",
+    "static/js/2.69c4b1c3.chunk.js.map": "/Movie-App-React/static/js/2.69c4b1c3.chunk.js.map",
+    "index.html": "/Movie-App-React/index.html",
+    "static/css/main.3d56a69b.chunk.css.map": "/Movie-App-React/static/css/main.3d56a69b.chunk.css.map",
+    "static/js/2.69c4b1c3.chunk.js.LICENSE.txt": "/Movie-App-React/static/js/2.69c4b1c3.chunk.js.LICENSE.txt",
+    "static/media/clapper.c2a8b2fa.svg": "/Movie-App-React/static/media/clapper.c2a8b2fa.svg",
+    "static/media/robot.182b4170.png": "/Movie-App-React/static/media/robot.182b4170.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.678cd683.js",
+    "static/js/2.69c4b1c3.chunk.js",
+    "static/css/main.3d56a69b.chunk.css",
+    "static/js/main.ef0a943b.chunk.js"
+  ]
+}
